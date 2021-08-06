@@ -26,7 +26,6 @@
   "bugs": {
     "url": "https://github.com/rustwasm/create-wasm-app/issues"
   },
-  "homepage": "https://xtekc.github.io/rswdwp",
   "dependencies": {
     "rswdwp": "file:../pkg"
   },
