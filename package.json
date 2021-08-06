@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d rswdwp"
+    "deploy": "gh-pages -d www"
   },
   "repository": {
     "type": "git",
