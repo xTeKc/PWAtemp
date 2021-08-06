@@ -1,3 +1,3 @@
 import * as wasm from "rswdwp";
 
-wasm.greet();
+wasm.greet("Anon");
