@@ -1,7 +1,7 @@
 [package]
 name = "rswdwp"
 version = "0.1.0"
-authors = ["xTeKc <bcd3v@pm.me>"]
+authors = ["xTeKc"]
 edition = "2018"
 
 [lib]
