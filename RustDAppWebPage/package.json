@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "deploy": "gh-pages -d rswdwp"
+    "deploy": "gh-pages -d RustDAppWebPage"
   },
   "repository": {
     "type": "git",
