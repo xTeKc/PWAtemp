@@ -17,3 +17,8 @@ extern {
 pub fn greet(name: &str) {
     alert(&format!("Hello {}, welcome to the DApp!", name));
 }
+
+#[wasm_bindgen]
+pub fn greet2(blockchain: &str) {
+    alert(&format!("This DApp is on the {} blockchain!", blockchain));
+}
