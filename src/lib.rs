@@ -15,5 +15,5 @@ extern {
 
 #[wasm_bindgen]
 pub fn greet(name: &str) {
-    alert(&format!("Hello {}, here's your DApp!", name));
+    alert(&format!("Hello {}, welcome to the DApp!", name));
 }
