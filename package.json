@@ -6,7 +6,6 @@
   "directories": {
     "test": "tests"
   },
-  "homepage": "https://xtekc.github.io/rswdwp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d www"
@@ -21,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/xTeKc/rswdwp/issues"
   },
+  "homepage": "https://xtekc.github.io/rswdwp",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
