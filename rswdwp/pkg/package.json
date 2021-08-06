@@ -1,0 +1,16 @@
+{
+  "name": "rswdwp",
+  "collaborators": [
+    "xTeKc <bcd3v@pm.me>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "rswdwp_bg.wasm",
+    "rswdwp.js",
+    "rswdwp_bg.js",
+    "rswdwp.d.ts"
+  ],
+  "module": "rswdwp.js",
+  "types": "rswdwp.d.ts",
+  "sideEffects": false
+}
