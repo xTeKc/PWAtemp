@@ -1,0 +1,1 @@
+/home/_admin0/Documents/RustProjects/rswdwp/target/wasm32-unknown-unknown/release/librswdwp.rlib: /home/_admin0/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-0.2.75/build.rs /home/_admin0/Documents/RustProjects/rswdwp/src/lib.rs /home/_admin0/Documents/RustProjects/rswdwp/src/utils.rs
