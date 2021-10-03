@@ -1,0 +1,1 @@
+## Progressive Web App template using Rust & Web Assembly. ##
