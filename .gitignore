@@ -7,3 +7,9 @@ wasm-pack.log
 .env
 /node_modules  
 package-lock.json
+
+# Added by cargo
+#
+# already existing elements were commented out
+
+#/target
