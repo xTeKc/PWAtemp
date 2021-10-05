@@ -1,6 +1,5 @@
-use std::env::var;
-
+use std::env;
 
 fn main() {
-    
+
 }
