@@ -3,12 +3,19 @@ use std::fs;
 use std::io::Error;
 
 
-fn main() -> Result<(), Error> {
+fn env() -> Result<(), Error> {
     // read `config_path` from the environment variable `CONFIG`.
     // If `CONFIG` isn't set, fall back to a default config path.
-    let env_path = env::var(".env");
+    let _env = env::var("_env")
+        .unwrap_or(".env".to_string());
 
-    
-    
+    let env: String = fs::read_to_string(_env)?;
+
+
     Ok(())
+}
+
+
+fn main() {
+    env();
 }
