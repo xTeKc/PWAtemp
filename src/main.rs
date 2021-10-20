@@ -8,6 +8,10 @@ struct Search {
    search_button: button::State
 }
 
+pub enum Message {
+    SearchPressed
+}
+
 fn main() {
 
 }
