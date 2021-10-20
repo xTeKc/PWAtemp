@@ -16,8 +16,11 @@ pub enum Message {
 
 // implement with view logic
 impl Search {
-    pub fn view() {
-        
+    pub fn view(&mut self) -> Column<Message> {
+        Column::new()
+            .push(
+                // produces the message when pressed
+            )
     }
 }
 
