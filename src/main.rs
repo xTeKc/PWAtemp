@@ -15,7 +15,11 @@ pub enum Message {
 }
 
 // implement with view logic
-
+impl Search {
+    pub fn view() {
+        
+    }
+}
 
 fn main() {
 
