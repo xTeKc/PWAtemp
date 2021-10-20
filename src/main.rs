@@ -26,7 +26,11 @@ impl Search {
     }
 
     pub fn update(&mut self, message: Message) {
-
+        match message {
+            Message::SearchPressed => {
+                self.value = "Search".to_string();
+            }
+        }
     }
 }
 
