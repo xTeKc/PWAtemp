@@ -24,6 +24,10 @@ impl Search {
                         .on_press(Message::SearchPressed),
             )
     }
+
+    pub fn update(&mut self, message: Message) {
+
+    }
 }
 
 fn main() {
