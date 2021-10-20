@@ -1,9 +1,11 @@
 use iced::*; 
 
 struct Search {
-    //search val
-    value: String
+    // search button value
+    value: String,
 
+   // local state of search button
+   search_button: button::State
 }
 
 fn main() {
