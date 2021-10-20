@@ -20,6 +20,8 @@ impl Search {
         Column::new()
             .push(
                 // produces the message when pressed
+                Button::new(&mut self.search_button, Text::new("^"))
+                        .on_press(Message::SearchPressed),
             )
     }
 }
