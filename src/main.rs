@@ -14,6 +14,9 @@ pub enum Message {
     SearchPressed
 }
 
+// implement with view logic
+
+
 fn main() {
 
 }
