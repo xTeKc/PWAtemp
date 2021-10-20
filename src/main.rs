@@ -8,6 +8,7 @@ struct Search {
    search_button: button::State
 }
 
+#[derive(Debug, Clone, Copy)]
 pub enum Message {
     SearchPressed
 }
