@@ -1,32 +1,34 @@
-use iced::{Color, Element, Sandbox, Settings, Text};
+// use iced::{Color, Element, Sandbox, Settings, Text};
 
-struct Browser;
+// struct Browser;
 
-impl Sandbox for Browser {
-    type Message = ();
+// impl Sandbox for Browser {
+//     type Message = ();
 
-    fn new() -> Browser {
-        Browser
-    }
+//     fn new() -> Browser {
+//         Browser
+//     }
 
-    fn title(&self) -> String {
-        String::from("PWA Browser")
-    }
+//     fn title(&self) -> String {
+//         String::from("PWA Browser")
+//     }
 
-    fn update(&mut self, _message: Self::Message) {
-        // This application has no interactions
-    }
+//     fn update(&mut self, _message: Self::Message) {
+//         // This application has no interactions
+//     }
 
-    fn view(&mut self) -> Element<Self::Message> {
-        Text::new("Browser").into()
-    }
+//     fn view(&mut self) -> Element<Self::Message> {
+//         Text::new("Browser").into()
+//     }
 
-    fn background_color(&self) -> iced::Color {
-        Color::BLACK
-    }
+//     fn background_color(&self) -> iced::Color {
+//         Color::BLACK
+//     }
     
-}
+    
 
-pub fn main() -> iced::Result {
-    Browser::run(Settings::default())
-}
+// }
+
+// pub fn main() -> iced::Result {
+//     Browser::run(Settings::default())
+// }
