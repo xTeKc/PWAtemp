@@ -5,4 +5,5 @@ edition = "2018"
 
 
 [dependencies]
+egui = "0.14.2"
 iced = "0.3.0"
