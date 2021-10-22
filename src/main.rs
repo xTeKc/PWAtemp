@@ -24,6 +24,7 @@ impl Sandbox for Browser {
     fn background_color(&self) -> iced::Color {
         Color::BLACK
     }
+    
 }
 
 pub fn main() -> iced::Result {
