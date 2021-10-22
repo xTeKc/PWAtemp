@@ -14,6 +14,8 @@ pub struct Window<'open> {
 
 // change bg color (black)
 
+// change txt color (white)
+
 fn main() {
     
 }
