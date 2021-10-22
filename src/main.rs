@@ -1,6 +1,10 @@
 use egui;
 
 
-fn main() {
+pub struct Window {
+    
+}
 
+fn main() {
+    
 }
