@@ -12,7 +12,7 @@ pub struct Window<'open> {
     with_title_bar: bool,
 }
 
-// change bg color
+// change bg color (black)
 
 fn main() {
     
