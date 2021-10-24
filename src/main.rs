@@ -1,4 +1,4 @@
-use egui::{self, Area, Color32, Frame, Label, Resize, ScrollArea};
+use egui::{self, Area, Color32, Frame, Id, Label, Order, Resize, ScrollArea};
 
 
 pub struct Window<'open> {
@@ -12,14 +12,9 @@ pub struct Window<'open> {
     with_title_bar: bool,
 }
 
-// change bg color (black)
-fn background_color(background_color: impl Into<Color32>) {
-
-}
-
-// change txt color (white)
-fn text_color(text_color: impl Into<Color32>) {
-
+pub struct LayerId {
+    pub order: Order,
+    pub id: Id,
 }
 
 fn main() {
