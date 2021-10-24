@@ -14,10 +14,13 @@ pub struct Window<'open> {
 
 // change bg color (black)
 pub fn background_color(self, background_color: impl Into<Color32>) -> Self {
-    
+
 }
 
 // change txt color (white)
+pub fn text_color(self, text_color: impl Into<Color32>) -> Self {
+    
+}
 
 fn main() {
     
