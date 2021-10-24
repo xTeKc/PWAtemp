@@ -13,12 +13,12 @@ pub struct Window<'open> {
 }
 
 // change bg color (black)
-fn background_color(self, background_color: impl Into<Color32>) -> Self {
+pub fn background_color(self, background_color: impl Into<Color32>) -> Self {
 
 }
 
 // change txt color (white)
-fn text_color(self, text_color: impl Into<Color32>) -> Self {
+pub fn text_color(self, text_color: impl Into<Color32>) -> Self {
 
 }
 
