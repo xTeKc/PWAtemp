@@ -1,4 +1,4 @@
-use egui::{self, Area, Frame, Label, Resize, ScrollArea};
+use egui::{self, Area, Color32, Frame, Label, Resize, ScrollArea};
 
 
 pub struct Window<'open> {
@@ -13,13 +13,13 @@ pub struct Window<'open> {
 }
 
 // change bg color (black)
-pub fn background_color(self, background_color: impl Into<Color32>) -> Self {
+fn background_color(self, background_color: impl Into<Color32>) -> Self {
 
 }
 
 // change txt color (white)
-pub fn text_color(self, text_color: impl Into<Color32>) -> Self {
-    
+fn text_color(self, text_color: impl Into<Color32>) -> Self {
+
 }
 
 fn main() {
