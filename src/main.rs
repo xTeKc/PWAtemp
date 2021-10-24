@@ -19,3 +19,7 @@ pub struct Window<'open> {
 fn main() {
     
 }
+
+fn ui() {
+    
+}
